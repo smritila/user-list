@@ -1,0 +1,40 @@
+.Container {
+    height:100%;
+    width:100%;
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4153c8;
+    background-image: linear-gradient(#4153c8,#5841c8);
+}
+
+.Container__box {
+    height:70vh;
+    width:40vw;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.Container__box__top {
+    height:20%;
+    width:100%;
+    background-color: #f6f6f6;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.Container__box__list {
+    height: 80%;
+    width: 100%;
+    overflow-y: auto;
+    box-sizing: border-box;
+    padding: 0.7rem 2rem;
+}

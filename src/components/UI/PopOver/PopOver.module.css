@@ -1,0 +1,22 @@
+.Popover__content {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    right: 0;
+    top: calc(90%);
+    padding: 2rem 1.5rem;
+    box-sizing: border-box;
+    min-width: 300px;
+    min-height: 350px;
+    width: auto;
+    overflow-y: auto;
+    border-radius: 1rem;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-out;
+}
+.Popover__content--show {
+    z-index: 10;
+    opacity: 1;
+    visibility: visible;
+}

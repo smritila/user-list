@@ -1,0 +1,19 @@
+.bg {
+    height:100%;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+   display: flex;
+   font-size:50px;
+   height:70vh;
+   width:40vw;
+   color:#eeeeee;
+   font-weight:500;
+   align-items: center;
+   justify-content: center;
+
+}

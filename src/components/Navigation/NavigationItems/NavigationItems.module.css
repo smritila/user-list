@@ -1,0 +1,16 @@
+.NavigationItemsContainer {
+    width: 100%;
+    height: 100%;
+    border-radius: 1.5rem;
+    background-color: #4153c8;
+    background-image: linear-gradient(#4153c8 ,#5841c8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.NavigationItems {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}

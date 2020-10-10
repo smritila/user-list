@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.text-dark {
+  color: #545454;
+  font-weight: 600;
+}
+
+.text-light {
+  color: #9a9a9a;
+  font-weight: normal;
+}
+
+.align-center {
+  display: block;
+  text-align: center;
+}
